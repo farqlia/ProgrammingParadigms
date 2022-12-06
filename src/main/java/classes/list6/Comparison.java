@@ -15,6 +15,12 @@ public class Comparison {
         System.out.println(s1 == s3);
         System.out.println(s1.equals(s3));
 
+        String s4 = s3.intern();
+
+        System.out.println(s1 == s3);
+        System.out.println(s1 == s4);
+
+
     }
 
 }
