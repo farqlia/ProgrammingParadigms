@@ -2,6 +2,9 @@ package lectures.lecture8.coersion;
 
 public class Coersion {
 
+    //static int[] array = {2, 3, 3, 5, 60};
+    //static {array = new int[5];}
+
     public static void main(String[] args) {
 
         int i = 5;

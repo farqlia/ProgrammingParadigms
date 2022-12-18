@@ -4,7 +4,7 @@ public class MethodOverriding {
 
     public static void main(String[] args) {
 
-        A a = new A();
+        A a = new B();
         A b = new B();
         A c = new C();
 
@@ -23,6 +23,9 @@ public class MethodOverriding {
         // Polymorphism also works for arrays
         B[] bs = {new B(), new C()};
         A[] as = bs;
+
+        System.out.println();
+
 
     }
 

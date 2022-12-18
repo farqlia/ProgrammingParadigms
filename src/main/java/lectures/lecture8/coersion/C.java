@@ -10,4 +10,5 @@ public class C extends B{
         System.out.println("printC: [C] -> " + attr);
     }
 
+    public C getInstance(){return this;}
 }

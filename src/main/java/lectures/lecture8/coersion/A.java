@@ -20,4 +20,5 @@ public class A {
         System.out.println("printC: [A] -> " + attr);
     }
 
+    public A getInstance(){return this;}
 }

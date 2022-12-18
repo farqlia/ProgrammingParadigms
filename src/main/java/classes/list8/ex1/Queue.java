@@ -13,6 +13,7 @@ public class Queue<E> implements MyQueue<E> {
     public Queue(int size){
         n = size + 1;
         array = new ArrayList<>(n);
+        for (int i = 0; i < n; i++) array.add(null);
         f = 0;
         r = 0;
     }
@@ -21,6 +22,7 @@ public class Queue<E> implements MyQueue<E> {
         if (isFull()) throw new FullException();
         else {
             array.set(r, x);
+            System.out.println(array);
             r = (r + 1) % n;
         }
     }
@@ -28,6 +30,7 @@ public class Queue<E> implements MyQueue<E> {
     @Override
     public void dequeue() {
         if (!isEmpty()) f = (f + 1) % n;
+        System.out.println(array);
     }
 
     @Override

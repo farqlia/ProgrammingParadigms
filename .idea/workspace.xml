@@ -4,26 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc6c4a1f-6b2b-4511-8f32-5ff6f6518b17" name="Changes" comment="puf">
-      <change afterPath="$PROJECT_DIR$/src/main/java/classes/list8/ex1/EmptyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classes/list8/ex1/FullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classes/list8/ex1/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classes/list8/ex1/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classes/list8/ex1/QueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classes/list8/ex2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/badoopexample/BadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/badoopexample/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/badoopexample/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/badoopexample/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/Coersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/MethodOverriding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/immutabletrees/BT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/immutabletrees/TestBT.java" afterDir="false" />
+    <list default="true" id="cc6c4a1f-6b2b-4511-8f32-5ff6f6518b17" name="Changes" comment="start with oop">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/Overloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/Overloading2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classes/list6/Comparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/list6/Comparison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/list8/ex1/EmptyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/list8/ex1/EmptyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/list8/ex1/FullException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/list8/ex1/FullException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/list8/ex1/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/list8/ex1/MyQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/list8/ex1/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/list8/ex1/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/list8/ex1/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/list8/ex1/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/Coersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/Coersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/MethodOverriding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture8/coersion/MethodOverriding.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +63,9 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Coersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.lecture8.coersion.Coersion" />
+  <component name="RunManager" selected="Application.QueueTest">
+    <configuration name="MethodOverriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.lecture8.coersion.MethodOverriding" />
       <module name="ProgrammingParadigms" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +77,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodOverriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.lecture8.coersion.MethodOverriding" />
+    <configuration name="Overloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.lecture8.coersion.Overloading" />
+      <module name="ProgrammingParadigms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.lecture8.coersion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Overloading2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.lecture8.coersion.Overloading2" />
       <module name="ProgrammingParadigms" />
       <extension name="coverage">
         <pattern>
@@ -108,25 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.list8.ex2.Test" />
+    <configuration name="lectures.lecture8.coersion.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.lecture8.coersion.Test" />
       <module name="ProgrammingParadigms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classes.list8.ex2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.lecture8.immutabletrees.TestBT" />
-      <module name="ProgrammingParadigms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.lecture8.immutabletrees.*" />
+          <option name="PATTERN" value="lectures.lecture8.coersion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.QueueTest" />
-        <item itemvalue="Application.TestBT" />
+        <item itemvalue="Application.Overloading2" />
         <item itemvalue="Application.MethodOverriding" />
-        <item itemvalue="Application.Coersion" />
+        <item itemvalue="Application.lectures.lecture8.coersion.Test" />
+        <item itemvalue="Application.Overloading" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +155,10 @@
       <workItem from="1670258923584" duration="983000" />
       <workItem from="1670263654846" duration="1515000" />
       <workItem from="1670273661196" duration="4622000" />
-      <workItem from="1670324850715" duration="5085000" />
+      <workItem from="1670324850715" duration="5307000" />
+      <workItem from="1670664124819" duration="5135000" />
+      <workItem from="1670862332586" duration="3538000" />
+      <workItem from="1671395071838" duration="730000" />
     </task>
     <task id="LOCAL-00001" summary="puf">
       <created>1670150103790</created>
@@ -169,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670150103790</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="start with oop">
+      <created>1670330744908</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670330744909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +193,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="puf" />
-    <option name="LAST_COMMIT_MESSAGE" value="puf" />
+    <MESSAGE value="start with oop" />
+    <option name="LAST_COMMIT_MESSAGE" value="start with oop" />
   </component>
 </project>
