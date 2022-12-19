@@ -50,7 +50,7 @@ public class QueueTest {
 
     private static void testQueue2(){
 
-        Queue<Integer> queue = new Queue<>(4);
+        Queue<Integer> queue = new Queue<>(1);
 
         try {
             queue.enqueue(1);
@@ -94,6 +94,39 @@ public class QueueTest {
         } catch (FullException e){
             System.out.println("!!!");
         }
+
+        try {
+            queue.enqueue(10);
+        } catch (FullException e){
+            System.out.println("Queue is full!");
+        }
+
+        try {
+            System.out.println(queue.first());
+            queue.dequeue();
+            System.out.println(queue.first());
+            queue.dequeue();
+            System.out.println(queue.first());
+            queue.dequeue();
+            System.out.println(queue.first());
+            queue.dequeue();
+        } catch (EmptyException e){
+            System.out.println("!!!");
+        }
+
+        try {
+            queue.first();
+        } catch (EmptyException e){
+            System.out.println("Queue is empty!");
+        }
+
+        try {
+            queue.enqueue(10);
+            System.out.println(queue.first());
+        } catch (FullException | EmptyException e){
+            System.out.println("!!!");
+        }
+
 
         try {
             queue.enqueue(10);
