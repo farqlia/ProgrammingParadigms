@@ -83,4 +83,16 @@ public class ChristmasBall {
     public Color getGlassColor() {
         return glassColor;
     }
+
+    @Override
+    public String toString(){
+        String ballDescription = "";
+        switch (type){
+            case ICICLE -> ballDescription = "height=" + height + ", glassColor=" + glassColor;
+            case MUSHROOM -> ballDescription = "hatColor=" + hatColor + ", hatPattern=" + hatPattern + ", stemColor=" + stemColor;
+            case BIG_ROUND, SMALL_ROUND -> ballDescription = "color=" + color + ", pattern=" + pattern + ", size=" + size;
+        }
+        return "ChristmasBall{type=" + type + ", " + ballDescription + "}";
+    }
+
 }
