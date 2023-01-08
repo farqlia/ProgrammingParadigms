@@ -19,7 +19,7 @@ public class IcicleBallElf extends Elf{
     }
 
     @Override
-    public void _takeBall(ChristmasBall ball){
+    protected void _takeBall(ChristmasBall ball){
         balls[getNumberOfCollectedBalls()] = (IcicleChristmasBall) ball;
     }
 
