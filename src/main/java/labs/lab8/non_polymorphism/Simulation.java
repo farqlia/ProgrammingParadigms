@@ -19,15 +19,20 @@ public class Simulation {
 
         List<ChristmasBall> balls = List.of(
                 new ChristmasBall(Color.TINTLESS, Pattern.PATTERNLESS, Size.BIG),
-                new ChristmasBall(Color.RED, Pattern.SPOTTED, Size.BIG),
-                new ChristmasBall(Color.GREEN, Pattern.PATTERNLESS, Color.WHITE),
+                new ChristmasBall(2, Color.WHITE),
                 new ChristmasBall(Color.BLACK, Pattern.PATTERNLESS, Size.SMALL),
                 new ChristmasBall(Color.WHITE, Pattern.PATTERNLESS, Size.SMALL),
-                new ChristmasBall(Color.RED, Pattern.PATTERNLESS, Size.SMALL),
-                new ChristmasBall(Color.GREEN, Pattern.PATTERNLESS, Size.SMALL),
-                new ChristmasBall(2, Color.WHITE),
+                new ChristmasBall(Color.GREEN, Pattern.PATTERNLESS, Color.WHITE),
                 new ChristmasBall(2, Color.GREEN),
-                new ChristmasBall(2, Color.TINTLESS)
+                new ChristmasBall(Color.RED, Pattern.PATTERNLESS, Size.SMALL),
+                new ChristmasBall(Color.RED, Pattern.SPOTTED, Size.BIG),
+                new ChristmasBall(Color.GREEN, Pattern.PATTERNLESS, Size.SMALL),
+                new ChristmasBall(2, Color.TINTLESS),
+                // nadmiarowe bombki
+                new ChristmasBall(Color.ORANGE, Pattern.SPOTTED, Size.BIG),
+                new ChristmasBall(Color.GREEN, Pattern.STRIPED, Color.WHITE),
+                new ChristmasBall(Color.GREEN, Pattern.PATTERNLESS, Size.SMALL),
+                new ChristmasBall(4, Color.TINTLESS)
         );
 
         System.out.println("Test 1");
@@ -37,7 +42,8 @@ public class Simulation {
                 new Elf("Elf 1", 1, Elf.ElfType.BIG_ROUND_XMAS_BALLS),
                 new Elf("Elf 2", 1, Elf.ElfType.ICICLE_XMAS_BALLS),
                 new Elf("Elf 3", 1, Elf.ElfType.SMALL_ROUND_XMAS_BALLS),
-                new Elf("Elf 4", 1, Elf.ElfType.MUSHROOM_XMAS_BALLS)
+                new Elf("Elf 4", 1, Elf.ElfType.MUSHROOM_XMAS_BALLS),
+                new Elf("Elf 5", 1, Elf.ElfType.BIG_ROUND_XMAS_BALLS)
         );
 
         balls = List.of(
@@ -51,7 +57,7 @@ public class Simulation {
                 new ChristmasBall(2, Color.GREEN)
         );
 
-        System.out.println("Test 2");
+        System.out.println("\nTest 2");
         packBalls(elves, balls);
 
     }

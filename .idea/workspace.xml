@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc6c4a1f-6b2b-4511-8f32-5ff6f6518b17" name="Changes" comment="labs 8">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture10/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/labs/lab8/non_polymorphism/ChristmasBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/lab8/non_polymorphism/ChristmasBall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/simulation/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/simulation/Simulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/xmasballs/IcicleChristmasBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/xmasballs/IcicleChristmasBall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/xmasballs/MushroomChristmasBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/xmasballs/MushroomChristmasBall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/lab8/utils/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/lab8/utils/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/labs/lab8/non_polymorphism/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/lab8/non_polymorphism/Simulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +58,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.labs.lab8.polymorphism.simulation.Simulation">
-    <configuration name="Overloading2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.lecture8.coersion.Overloading2" />
-      <module name="ProgrammingParadigms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.lecture8.coersion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.labs.lab8.non_polymorphism.Simulation">
     <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classes.list8.ex1.QueueTest" />
       <module name="ProgrammingParadigms" />
@@ -115,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="labs.lab8.non_polymorphism.Simulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.lab8.non_polymorphism.Simulation" />
+      <module name="ProgrammingParadigms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="labs.lab8.non_polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="labs.lab8.polymorphism.simulation.Simulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labs.lab8.polymorphism.simulation.Simulation" />
       <module name="ProgrammingParadigms" />
@@ -130,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.labs.lab8.non_polymorphism.Simulation" />
         <item itemvalue="Application.labs.lab8.polymorphism.simulation.Simulation" />
         <item itemvalue="Application.Simulation" />
         <item itemvalue="Application.QueueTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Overloading2" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +165,7 @@
       <workItem from="1673382557020" duration="981000" />
       <workItem from="1673416397428" duration="4636000" />
       <workItem from="1673425862047" duration="726000" />
-      <workItem from="1673426606470" duration="299000" />
+      <workItem from="1673426606470" duration="857000" />
     </task>
     <task id="LOCAL-00001" summary="puf">
       <created>1670150103790</created>
@@ -213,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673181145248</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="labs 8">
+      <created>1673427126039</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673427126039</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -22,12 +22,14 @@ public class ChristmasBall {
     private int height;
     private Color glassColor;
 
+    /*** Creates Icicle Christmas Ball ***/
     public ChristmasBall(int height, Color glassColor) {
         this.height = height;
         this.glassColor = glassColor;
         this.type = ChristmasBallType.ICICLE;
     }
 
+    /*** Creates Mushroom Christmas Ball ***/
     public ChristmasBall(Color hatColor, Pattern hatPattern, Color stemColor) {
         this.hatColor = hatColor;
         this.hatPattern = hatPattern;
@@ -35,6 +37,7 @@ public class ChristmasBall {
         this.type = ChristmasBallType.MUSHROOM;
     }
 
+    /*** Creates Round Christmas Ball ***/
     public ChristmasBall(Color color, Pattern pattern,
                          Size size) {
         this.color = color;
@@ -49,4 +52,16 @@ public class ChristmasBall {
     public ChristmasBallType getType() {
         return type;
     }
+
+    @Override
+    public String toString(){
+        String ballDescription = "";
+        switch (type){
+            case ICICLE -> ballDescription = "height=" + height + ", glassColor=" + glassColor;
+            case MUSHROOM -> ballDescription = "hatColor=" + hatColor + ", hatPattern=" + hatPattern + ", stemColor=" + stemColor;
+            case BIG_ROUND, SMALL_ROUND -> ballDescription = "color=" + color + ", pattern=" + pattern + ", size=" + size;
+        }
+        return "ChristmasBall{type=" + type + ", " + ballDescription + "}";
+    }
+
 }
