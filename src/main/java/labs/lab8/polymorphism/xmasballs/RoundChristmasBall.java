@@ -14,14 +14,6 @@ public abstract class RoundChristmasBall extends ChristmasBall {
         this.pattern = pattern;
     }
 
-    public Color getColor() {
-        return color;
-    }
-
-    public Pattern getPattern() {
-        return pattern;
-    }
-
     @Override
     public String toString() {
         return "RoundChristmasBall{" +

@@ -15,18 +15,6 @@ public class MushroomChristmasBall extends ChristmasBall{
         this.stemColor = stemColor;
     }
 
-    public Color getHatColor() {
-        return hatColor;
-    }
-
-    public Pattern getHatPattern() {
-        return hatPattern;
-    }
-
-    public Color getStemColor() {
-        return stemColor;
-    }
-
     @Override
     public String toString() {
         return "MushroomChristmasBall{" +

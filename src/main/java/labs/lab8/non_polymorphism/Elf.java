@@ -23,6 +23,7 @@ public class Elf {
             default -> this.ballType = ChristmasBallType.ICICLE;
         }
         this.name = name;
+        // max(1, containerSize)
         this.balls = new ChristmasBall[containerSize];
         this.numberOfCollectedBalls = 0;
     }

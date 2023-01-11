@@ -12,14 +12,6 @@ public class IcicleChristmasBall extends ChristmasBall {
         this.glassColor = glassColor;
     }
 
-    public int getHeight() {
-        return height;
-    }
-
-    public Color getGlassColor() {
-        return glassColor;
-    }
-
     @Override
     public String toString() {
         return "IcicleChristmasBall{" +
