@@ -46,41 +46,7 @@ public class ChristmasBall {
         }
     }
 
-    public Color getColor() {
-        return color;
-    }
-
-    public Pattern getPattern() {
-        return pattern;
-    }
-
     public ChristmasBallType getType() {
         return type;
-    }
-
-    public Size getSize() {
-        return size;
-    }
-
-    public Color getHatColor() {
-        return hatColor;
-    }
-
-    public Pattern getHatPattern() {
-        return hatPattern;
-    }
-
-    public Color getStemColor() {
-        return stemColor;
-    }
-
-    // TODO : ???
-    public int getHeight() {
-        // ??
-        return height;
-    }
-
-    public Color getGlassColor() {
-        return glassColor;
     }
 }

@@ -22,7 +22,7 @@ public class IcicleChristmasBall extends ChristmasBall {
 
     @Override
     public String toString() {
-        return "ChristmasBallIcicle{" +
+        return "IcicleChristmasBall{" +
                 "height=" + height +
                 ", glassColor=" + glassColor +
                 '}';

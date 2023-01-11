@@ -29,7 +29,7 @@ public class MushroomChristmasBall extends ChristmasBall{
 
     @Override
     public String toString() {
-        return "ChristmasBallMushroom{" +
+        return "MushroomChristmasBall{" +
                 "hatColor=" + hatColor +
                 ", hatPattern=" + hatPattern +
                 ", stemColor=" + stemColor +

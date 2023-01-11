@@ -20,16 +20,21 @@ public class Simulation {
 
         List<ChristmasBall> balls = List.of(
                 new BigRoundChristmasBall(Color.TINTLESS, Pattern.PATTERNLESS),
-                new BigRoundChristmasBall(Color.RED, Pattern.SPOTTED),
-                new MushroomChristmasBall(Color.GREEN, Pattern.PATTERNLESS, Color.WHITE),
-                new SmallRoundChristmasBall(Color.BLACK, Pattern.PATTERNLESS),
+                new IcicleChristmasBall(2, Color.WHITE),
                 new SmallRoundChristmasBall(Color.WHITE, Pattern.PATTERNLESS),
                 new SmallRoundChristmasBall(Color.RED, Pattern.PATTERNLESS),
-                new SmallRoundChristmasBall(Color.GREEN, Pattern.PATTERNLESS),
-                new IcicleChristmasBall(2, Color.WHITE),
+                new MushroomChristmasBall(Color.GREEN, Pattern.PATTERNLESS, Color.WHITE),
+                new SmallRoundChristmasBall(Color.BLACK, Pattern.PATTERNLESS),
                 new IcicleChristmasBall(2, Color.GREEN),
-                new IcicleChristmasBall(2, Color.TINTLESS)
-        );
+                new BigRoundChristmasBall(Color.RED, Pattern.SPOTTED),
+                new IcicleChristmasBall(2, Color.TINTLESS),
+                new SmallRoundChristmasBall(Color.GREEN, Pattern.PATTERNLESS),
+                // Nadmiarowe bombki
+                new BigRoundChristmasBall(Color.BLACK, Pattern.SPOTTED),
+                new IcicleChristmasBall(5, Color.TINTLESS),
+                new SmallRoundChristmasBall(Color.ORANGE, Pattern.PATTERNLESS),
+                new MushroomChristmasBall(Color.GREEN, Pattern.STRIPED, Color.WHITE)
+                );
 
         System.out.println("Test 1");
         packBalls(elves, balls);
@@ -38,7 +43,8 @@ public class Simulation {
                 new BigRoundBallElf("Elf 1", 1),
                 new IcicleBallElf("Elf 2", 1),
                 new SmallRoundBallElf("Elf 3", 1),
-                new MushroomBallElf("Elf 4", 1)
+                new MushroomBallElf("Elf 4", 1),
+                new BigRoundBallElf("Elf 5", 1)
         );
 
         List<ChristmasBall> overPackedBalls = List.of(
