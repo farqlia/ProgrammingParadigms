@@ -6,7 +6,8 @@ public class Elf {
         BIG_ROUND_XMAS_BALLS,
         SMALL_ROUND_XMAS_BALLS,
         MUSHROOM_XMAS_BALLS,
-        ICICLE_XMAS_BALLS
+        ICICLE_XMAS_BALLS,
+        ROUND_XMAS_BALL
     }
 
     private final String name;
