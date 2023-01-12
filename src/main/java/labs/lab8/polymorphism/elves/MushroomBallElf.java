@@ -14,7 +14,7 @@ public class MushroomBallElf extends Elf{
 
 
     @Override
-    public boolean isCorrectType(ChristmasBall ball) {
+    public boolean canTake(ChristmasBall ball) {
         return (ball instanceof MushroomChristmasBall);
     }
 

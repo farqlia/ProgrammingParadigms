@@ -5,17 +5,20 @@ import labs.lab8.utils.Pattern;
 import labs.lab8.utils.Size;
 
 import java.util.List;
+import java.util.Map;
 
 public class Simulation {
 
-    public static void main(String[] args) {
+    public static void m1(){
 
-        List<Elf> elves = List.of(
-                new Elf("Elf 1", 2, Elf.ElfType.BIG_ROUND_XMAS_BALLS),
-                new Elf("Elf 2", 3, Elf.ElfType.ICICLE_XMAS_BALLS),
-                new Elf("Elf 3", 4, Elf.ElfType.SMALL_ROUND_XMAS_BALLS),
-                new Elf("Elf 4", 1, Elf.ElfType.MUSHROOM_XMAS_BALLS)
-        );
+        Elf elf1 = new Elf("Elf 1", Map.of(ChristmasBallType.BIG_ROUND, 2));
+        Elf elf2 = new Elf("Elf 2", Map.of(ChristmasBallType.ICICLE,3));
+        Elf elf3 = new Elf("Elf 3", Map.of(ChristmasBallType.SMALL_ROUND,4));
+        Elf elf4 = new Elf("Elf 4", Map.of(ChristmasBallType.MUSHROOM, 1));
+
+        elf1.setNextElf(elf2);
+        elf2.setNextElf(elf3);
+        elf3.setNextElf(elf4);
 
         List<ChristmasBall> balls = List.of(
                 new ChristmasBall(Color.TINTLESS, Pattern.PATTERNLESS, Size.BIG),
@@ -35,18 +38,54 @@ public class Simulation {
                 new ChristmasBall(4, Color.TINTLESS)
         );
 
-        System.out.println("Test 1");
-        packBalls(elves, balls);
+        for (ChristmasBall ball : balls){
+            elf1.takeOrSendFurther(ball);
+        }
 
-        elves = List.of(
-                new Elf("Elf 1", 1, Elf.ElfType.BIG_ROUND_XMAS_BALLS),
-                new Elf("Elf 2", 1, Elf.ElfType.ICICLE_XMAS_BALLS),
-                new Elf("Elf 3", 1, Elf.ElfType.SMALL_ROUND_XMAS_BALLS),
-                new Elf("Elf 4", 1, Elf.ElfType.MUSHROOM_XMAS_BALLS),
-                new Elf("Elf 5", 1, Elf.ElfType.BIG_ROUND_XMAS_BALLS)
+    }
+
+    public static void modification(){
+
+        Elf elf1 = new Elf("Elf 1", Map.of(ChristmasBallType.BIG_ROUND, 2));
+        Elf elf2 = new Elf("Elf 2", Map.of(ChristmasBallType.SMALL_ROUND,2));
+        Elf elf3 = new Elf("Elf 3", Map.of(ChristmasBallType.SMALL_ROUND,1,
+                ChristmasBallType.BIG_ROUND,1));
+
+
+        elf1.setNextElf(elf2);
+        elf2.setNextElf(elf3);
+
+        List<ChristmasBall> balls = List.of(
+                new ChristmasBall(Color.TINTLESS, Pattern.PATTERNLESS, Size.BIG),
+                new ChristmasBall(Color.ORANGE, Pattern.PATTERNLESS, Size.BIG),
+
+                new ChristmasBall(Color.BLACK, Pattern.PATTERNLESS, Size.SMALL),
+                new ChristmasBall(Color.WHITE, Pattern.PATTERNLESS, Size.SMALL),
+
+                new ChristmasBall(Color.ORANGE, Pattern.PATTERNLESS, Size.BIG),
+                new ChristmasBall(Color.BLACK, Pattern.PATTERNLESS, Size.SMALL)
         );
 
-        balls = List.of(
+        for (ChristmasBall ball : balls){
+            elf1.takeOrSendFurther(ball);
+        }
+
+    }
+
+    public static void m3(){
+
+        Elf elf1 = new Elf("Elf 1", Map.of(ChristmasBallType.BIG_ROUND, 1));
+        Elf elf2 = new Elf("Elf 2", Map.of(ChristmasBallType.ICICLE,1));
+        Elf elf3 = new Elf("Elf 3", Map.of(ChristmasBallType.SMALL_ROUND,1));
+        Elf elf4 = new Elf("Elf 4", Map.of(ChristmasBallType.MUSHROOM, 1));
+        Elf elf5 = new Elf("Elf 5", Map.of(ChristmasBallType.BIG_ROUND, 1));
+
+        elf1.setNextElf(elf2);
+        elf2.setNextElf(elf3);
+        elf3.setNextElf(elf4);
+        elf4.setNextElf(elf5);
+
+        List<ChristmasBall> balls = List.of(
                 new ChristmasBall(Color.TINTLESS, Pattern.PATTERNLESS, Size.BIG),
                 new ChristmasBall(Color.RED, Pattern.SPOTTED, Size.BIG),
                 new ChristmasBall(Color.GREEN, Pattern.PATTERNLESS, Color.WHITE),
@@ -57,27 +96,15 @@ public class Simulation {
                 new ChristmasBall(2, Color.GREEN)
         );
 
-        System.out.println("\nTest 2");
-        packBalls(elves, balls);
+        for (ChristmasBall ball : balls){
+            elf1.takeOrSendFurther(ball);
+        }
 
     }
 
-    public static void packBalls(List<Elf> elves,
-                                 List<ChristmasBall> balls){
-
-        boolean wasTaken;
-        for (ChristmasBall ball : balls){
-
-            wasTaken = false;
-            for (Elf elf : elves){
-                if (wasTaken = (elf.takeBall(ball))) {
-                    break;
-                }
-            }
-            if (!wasTaken) System.out.println("Ups ball : " + ball + " is broken");
-
-        }
-
+    public static void main(String[] args) {
+        //m3();
+        modification();
     }
 
 }

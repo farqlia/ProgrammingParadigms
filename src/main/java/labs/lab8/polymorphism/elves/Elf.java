@@ -7,6 +7,7 @@ public abstract class Elf {
     private final String name;
     private final int containerCapacity;
     private int numberOfCollectedBalls;
+    private Elf nextElf;
 
     public Elf(String name, int containerCapacity) {
         this.name = name;
@@ -16,10 +17,10 @@ public abstract class Elf {
 
     protected abstract void _takeBall(ChristmasBall ball);
 
-    public abstract boolean isCorrectType(ChristmasBall ball);
+    public abstract boolean canTake(ChristmasBall ball);
 
-    public boolean takeBall(ChristmasBall ball){
-        boolean canTakeBall = !isFull() && isCorrectType(ball);
+    private boolean takeBall(ChristmasBall ball){
+        boolean canTakeBall = !isFull() && canTake(ball);
         if (canTakeBall){
             System.out.println(getName() + " takes " + ball);
             _takeBall(ball);
@@ -42,4 +43,15 @@ public abstract class Elf {
     public String getName() {
         return name;
     }
+
+    public void takeOrSendFurther(ChristmasBall ball){
+        if (takeBall(ball)) return;
+        else if (nextElf != null) nextElf.takeOrSendFurther(ball);
+        else System.out.println("Ups " + ball + " is broken");
+    }
+
+    public void setNextElf(Elf next){
+        this.nextElf = next;
+    }
+
 }

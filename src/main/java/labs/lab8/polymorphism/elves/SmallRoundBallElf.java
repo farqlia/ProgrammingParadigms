@@ -3,7 +3,7 @@ package labs.lab8.polymorphism.elves;
 import labs.lab8.polymorphism.xmasballs.ChristmasBall;
 import labs.lab8.polymorphism.xmasballs.SmallRoundChristmasBall;
 
-public class SmallRoundBallElf extends RoundBallElf{
+public class SmallRoundBallElf extends Elf{
 
     SmallRoundChristmasBall[] balls;
 
@@ -12,9 +12,8 @@ public class SmallRoundBallElf extends RoundBallElf{
         balls = new SmallRoundChristmasBall[containerCapacity];
     }
 
-
     @Override
-    public boolean isCorrectType(ChristmasBall ball) {
+    public boolean canTake(ChristmasBall ball) {
         return (ball instanceof SmallRoundChristmasBall);
     }
 
