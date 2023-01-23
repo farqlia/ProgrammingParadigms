@@ -5,18 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc6c4a1f-6b2b-4511-8f32-5ff6f6518b17" name="Changes" comment="labs 8">
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/elves/BigAndSmallRoundBallElf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/simulation/SImulation2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes/list11/EatingPhilosophers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes/list11/Exercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes/list11/ex3/BoundedBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes/list11/ex3/Consume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes/list11/ex3/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes/list11/ex3/ProdCons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes/list11/ex3/Produce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes/list11/ex3/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture11/BlockedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture11/Counter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture11/CyclicProducerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture11/ForkJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture11/ProducerConsumerProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture11/SynchronizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lectures/lecture11/WaitingState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/lab8/non_polymorphism/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/lab8/non_polymorphism/Elf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/lab8/non_polymorphism/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/lab8/non_polymorphism/Simulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/elves/BigRoundBallElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/elves/BigRoundBallElf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/elves/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/elves/Elf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/elves/IcicleBallElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/elves/IcicleBallElf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/elves/MushroomBallElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/elves/MushroomBallElf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/elves/RoundBallElf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/elves/SmallRoundBallElf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/elves/SmallRoundBallElf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/lab8/polymorphism/simulation/Simulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +64,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/IdeaProjects/LectureNotes&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/IdeaProjects/ProgrammingParadigms&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -67,13 +72,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SImulation2">
-    <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.list8.ex1.QueueTest" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\IdeaProjects\ProgrammingParadigms\src\main\java\classes\list11\ex3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EatingPhilosophers">
+    <configuration name="CyclicProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.lecture11.CyclicProducerConsumer" />
       <module name="ProgrammingParadigms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classes.list8.ex1.*" />
+          <option name="PATTERN" value="lectures.lecture11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SImulation2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.lab8.polymorphism.simulation.SImulation2" />
+    <configuration name="EatingPhilosophers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.list11.EatingPhilosophers" />
       <module name="ProgrammingParadigms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.lab8.polymorphism.simulation.*" />
+          <option name="PATTERN" value="classes.list11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Simulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.lab8.simulation.Simulation" />
+    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.list11.Exercise1" />
       <module name="ProgrammingParadigms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.lab8.simulation.*" />
+          <option name="PATTERN" value="classes.list11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="labs.lab8.non_polymorphism.Simulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.lab8.non_polymorphism.Simulation" />
+    <configuration name="ProdCons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.list11.ex3.ProdCons" />
       <module name="ProgrammingParadigms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.lab8.polymorphism.simulation.*" />
+          <option name="PATTERN" value="classes.list11.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="labs.lab8.polymorphism.simulation.Simulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.lab8.polymorphism.simulation.Simulation" />
+    <configuration name="ProducerConsumerProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.lecture11.ProducerConsumerProblem" />
       <module name="ProgrammingParadigms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.lab8.polymorphism.simulation.*" />
+          <option name="PATTERN" value="lectures.lecture11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SImulation2" />
-        <item itemvalue="Application.labs.lab8.non_polymorphism.Simulation" />
-        <item itemvalue="Application.labs.lab8.polymorphism.simulation.Simulation" />
-        <item itemvalue="Application.Simulation" />
-        <item itemvalue="Application.QueueTest" />
+        <item itemvalue="Application.EatingPhilosophers" />
+        <item itemvalue="Application.ProdCons" />
+        <item itemvalue="Application.Exercise1" />
+        <item itemvalue="Application.CyclicProducerConsumer" />
+        <item itemvalue="Application.ProducerConsumerProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +189,15 @@
       <workItem from="1673457948923" duration="704000" />
       <workItem from="1673471728768" duration="1629000" />
       <workItem from="1673539698801" duration="4042000" />
-      <workItem from="1673543796870" duration="794000" />
+      <workItem from="1673543796870" duration="855000" />
+      <workItem from="1673605391184" duration="521000" />
+      <workItem from="1673702715476" duration="57000" />
+      <workItem from="1673710745692" duration="66000" />
+      <workItem from="1674456450590" duration="2301000" />
+      <workItem from="1674461777796" duration="3706000" />
+      <workItem from="1674468024307" duration="684000" />
+      <workItem from="1674479526192" duration="1596000" />
+      <workItem from="1674502255847" duration="6713000" />
     </task>
     <task id="LOCAL-00001" summary="puf">
       <created>1670150103790</created>
@@ -251,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673539877984</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="labs 8">
+      <created>1673544651125</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673544651125</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
