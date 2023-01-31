@@ -66,7 +66,7 @@ class Philosopher extends Thread {
     @Override
     public void run() {
 
-        for (int i = 0; i < 1; i++) eat();
+        for (int i = 0; i < 10; i++) eat();
 
     }
 }
