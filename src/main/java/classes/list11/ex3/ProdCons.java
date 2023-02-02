@@ -5,7 +5,7 @@ import classes.list11.ex3.BoundedBuffer;
 public class ProdCons {
    public static void main(String args[]) {
 	   final int P = 3, C = 3;
-       BoundedBuffer buf = new BoundedBuffer(5);
+       BoundedBuffer buf = new BoundedBuffer(2);
        Producer[] prods = new Producer[P];
        Consumer[] cons = new Consumer[C];
        for (int i=0; i<P; i++) {

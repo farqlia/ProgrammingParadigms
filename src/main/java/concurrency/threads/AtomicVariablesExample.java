@@ -23,6 +23,7 @@ public class AtomicVariablesExample {
 
     static int getRank(){
         shared.increment();
+
         return shared.get();
     }
 
