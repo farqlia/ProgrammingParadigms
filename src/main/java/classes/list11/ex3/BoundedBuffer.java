@@ -12,11 +12,11 @@ public class BoundedBuffer implements Produce, Consume {
     public synchronized void put(int x) {
         while (n >= N) 
           try {
-        	  System.out.println(Thread.currentThread().getName()+" waiting with " + x); 
+        	  System.out.println("   " + Thread.currentThread().getName()+" waiting with " + x);
         	  wait(); 
           } catch (InterruptedException e) {System.out.println(e);}
         elems[in] = x; in = (in + 1) % N ; n += 1; 
-        System.out.println(Thread.currentThread().getName()+" produced: " + x);
+        System.out.println(" " + Thread.currentThread().getName()+" produced: " + x);
          // norifyAll informs all threads waiting for some condition to be met
         if (n == 1) notify();
     }
@@ -27,11 +27,11 @@ public class BoundedBuffer implements Produce, Consume {
         while (n == 0) // it can't be 'if' because even if a thread is released, the condition
             // may change
           try {
-        	  System.out.println(Thread.currentThread().getName() + " waiting");
+        	  System.out.println("   " + Thread.currentThread().getName() + " waiting");
         	  wait(); 
           } catch (InterruptedException e) {System.out.println(e);}
         int x = elems[out]; out = (out + 1) % N ; n -= 1;
-        System.out.println(Thread.currentThread().getName() +" consuming: " + x);
+        System.out.println(" " + Thread.currentThread().getName() +" consuming: " + x);
         if (n == N-1) notify();
         return x;
     }
